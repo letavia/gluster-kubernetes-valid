@@ -9,6 +9,7 @@ metadata:
   annotations:
     description: Exposes Heketi Service
 spec:
+  type: LoadBalancer
   selector:
     glusterfs: heketi-pod
   ports:
